@@ -19,7 +19,7 @@
     </section>
     <section class="flex bg-[#0e0e0e] flex-col items-center h-full w-full p-24">
         <h2 class="text-5xl font-bold mb-12 text-white">Our Portfolio</h2>
-        <div class="grid grid-cols-2 xl:grid-cols-4 gap-10 w-full">
+        <div class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-10 w-full">
             <a href="#"><div class="rounded-lg overflow-hidden relative group">
                 <img src="thumbs/logo.png" alt="" class="w-full object-cover transform duration-700 group-hover:scale-110">
                 <div class="w-full h-full bottom-0 left-0 absolute bg-gradient-to-t from-[#054dc0] to-transparent opacity-0 group-hover:opacity-100 opacity duration-1000"></div>
@@ -34,6 +34,10 @@
             </a>
             <a href="#"><div class="rounded-lg overflow-hidden relative group">
                 <img src="thumbs/flyer.png" alt="" class="w-full object-cover transform duration-700 group-hover:scale-110">
+                <div class="w-full h-full bottom-0 left-0 absolute bg-gradient-to-t from-[#054dc0] to-transparent opacity-0 group-hover:opacity-100 opacity duration-1000"></div>
+            </a>
+            <a href="#"><div class="rounded-lg overflow-hidden relative group">
+                <img src="thumbs/sticker.png" alt="" class="w-full object-cover transform duration-700 group-hover:scale-110">
                 <div class="w-full h-full bottom-0 left-0 absolute bg-gradient-to-t from-[#054dc0] to-transparent opacity-0 group-hover:opacity-100 opacity duration-1000"></div>
             </a>
         </div>

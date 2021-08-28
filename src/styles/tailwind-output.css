@@ -600,6 +600,9 @@ video {
 .h-2\/4{
 	height: 50%;
 }
+.h-screen{
+	height: 100vh;
+}
 .w-full{
 	width: 100%;
 }
@@ -807,9 +810,19 @@ video {
 .group:hover .group-hover\:opacity-100{
 	opacity: 1;
 }
+@media (min-width: 1024px){
+
+	.lg\:grid-cols-3{
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+}
 @media (min-width: 1280px){
 
 	.xl\:grid-cols-4{
 		grid-template-columns: repeat(4, minmax(0, 1fr));
+	}
+
+	.xl\:grid-cols-5{
+		grid-template-columns: repeat(5, minmax(0, 1fr));
 	}
 }
