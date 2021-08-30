@@ -9,8 +9,8 @@
         <img src="logo.png" alt="Skypiea Media Company" class="w-12 cursor-pointer hover:animate-spin transition-all duration-700">
     </a>
     <nav class="text-white font-black space-x-6 md:space-x-12 flex">
-        <a href="#" class="hover:text-blue-300 transition-colors duration-500">Our Work</a>
-        <a href="#" class="hover:text-blue-300 transition-colors duration-500">Contact Us</a>
+        <a href="/#works" class="hover:text-blue-300 transition-colors duration-500">Our Work</a>
+        <a href="/#contact-us" class="hover:text-blue-300 transition-colors duration-500">Contact Us</a>
     </nav>
 </header>
 <slot></slot>

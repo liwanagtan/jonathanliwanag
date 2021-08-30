@@ -18,7 +18,7 @@
         <h1 class="text-4xl md:text-7xl text-center font-extrabold uppercase text-transparent bg-clip-text bg-gradient-to-br from-[#b97112] to-[#f8ba14]">Skypiea Media</h1>
         <p class="text-2xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-br from-white to-gray-50">We help company build a solid foundation for their success through design.</p>
     </section>
-    <section class="flex bg-[#0e0e0e] flex-col items-center h-full w-full p-8 md:p-24">
+    <section id="works" class="flex bg-[#1d1d1d] flex-col items-center h-full w-full p-8 md:p-24">
         <h2 class="text-5xl font-bold mb-12 text-white">Our Portfolio</h2>
         <div class="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-5 gap-10 w-full">
             {#each works as work, i}
@@ -27,26 +27,10 @@
                     <img src="{work.img}" alt="{work.title}" class="w-full object-cover transform duration-700 group-hover:scale-110">   
                     <div class="w-full h-full bottom-0 left-0 absolute bg-gradient-to-t from-black to-transparent"></div>
                 </div>
-                <div class="w-full h-full inset-0 absolute bg-gradient-to-t from-[#054dc0] to-transparent opacity-0 group-hover:opacity-100 opacity duration-1000"></div>
-                <h3 class="text-white font-bold text-2xl bottom-0 absolute pl-8 pb-8 group-hover:text-3xl transition-all duration-500">{work.title}</h3>
+                <div class="w-full h-full inset-0 absolute bg-gradient-to-t from-[#e0960c] to-transparent opacity-0 group-hover:opacity-100 opacity duration-1000"></div>
+                <h3 class="text-white font-bold text-xl bottom-0 absolute pl-8 pb-8 group-hover:text-2xl transition-all duration-500">{work.title}</h3>
             </a>
             {/each}
-            <!-- <a href="poster"><div class="rounded-lg overflow-hidden relative group">
-                <img src="thumbs/poster.png" alt="" class="w-full object-cover transform duration-700 group-hover:scale-110">
-                <div class="w-full h-full bottom-0 left-0 absolute bg-gradient-to-t from-[#054dc0] to-transparent opacity-0 group-hover:opacity-100 opacity duration-1000"></div>
-            </a>
-            <a href="/website"><div class="rounded-lg overflow-hidden relative group">
-                <img src="thumbs/web.png" alt="" class="w-full object-cover transform duration-700 group-hover:scale-110">
-                <div class="w-full h-full bottom-0 left-0 absolute bg-gradient-to-t from-[#054dc0] to-transparent opacity-0 group-hover:opacity-100 opacity duration-1000"></div>
-            </a>
-            <a href="print"><div class="rounded-lg overflow-hidden relative group">
-                <img src="thumbs/flyer.png" alt="" class="w-full object-cover transform duration-700 group-hover:scale-110">
-                <div class="w-full h-full bottom-0 left-0 absolute bg-gradient-to-t from-[#054dc0] to-transparent opacity-0 group-hover:opacity-100 opacity duration-1000"></div>
-            </a>
-            <a href="sticker"><div class="rounded-lg overflow-hidden relative group">
-                <img src="thumbs/sticker.png" alt="" class="w-full object-cover transform duration-700 group-hover:scale-110">
-                <div class="w-full h-full bottom-0 left-0 absolute bg-gradient-to-t from-[#054dc0] to-transparent opacity-0 group-hover:opacity-100 opacity duration-1000"></div>
-            </a> -->
         </div>
     </section>
 </main>
