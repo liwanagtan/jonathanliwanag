@@ -35,7 +35,7 @@
 	</div>
     <div class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-10 items center">
         {#each logos as { id, src }, i}
-		<img src="static/portfolio/stickers/Sticker{id}.jpg" alt="">
+		<img src="/portfolio/stickers/Sticker{id}.jpg" alt="">
 	    {/each}
     </div>
 </main>

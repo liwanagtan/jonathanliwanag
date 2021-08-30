@@ -20,7 +20,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-4 gap-10 items center">
         {#each prints as { id, src }, i}
 		<div class="h-full w-full object-cover">
-            <img src="static/portfolio/prints/{src}.jpg" alt="" class="w-full h-full object-cover">
+            <img src="/portfolio/prints/{src}.jpg" alt="" class="w-full h-full object-cover">
         </div>
 	    {/each}
     </div>
