@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<title>SMG | Print Designs</title>
+	<title>Print Designs</title>
 </svelte:head>
 
 <main class="h-full font-visby bg-[#151515] text-white p-24">

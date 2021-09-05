@@ -24,7 +24,7 @@
 </script>
 
 <svelte:head>
-	<title>SMG | Sticker Designs</title>
+	<title>Sticker Designs</title>
 </svelte:head>
 
 <main class="h-full font-visby bg-[#151515] text-white p-24">

@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-	<title>Sypiea Media Group</title>
+	<title>Jonathan Liwanag Portfolio Website</title>
 </svelte:head>
 
 <main class="h-full font-visby bg-[#151515]">
