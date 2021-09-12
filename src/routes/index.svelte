@@ -3,7 +3,7 @@
 	let works = [
 		{ id: '1', img: 'thumbs/logo.png', href: '/logo', title: 'Logo Design' },
         { id: '2', img: 'thumbs/poster.png', href: '/poster', title: 'Posters' },
-        { id: '3', img: 'thumbs/web.png', href: '/webiste', title: 'Website Design' },
+        { id: '3', img: 'thumbs/web.png', href: '/website', title: 'Website Design' },
         { id: '4', img: 'thumbs/flyer.png', href: '/print', title: 'Prints' },
         { id: '5', img: 'thumbs/sticker.png', href: '/sticker', title: 'Stickers' }
 	];
